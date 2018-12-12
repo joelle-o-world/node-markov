@@ -1,0 +1,22 @@
+{
+  "name": "node-markov",
+  "version": "1.0.0",
+  "description": "A simple markov-model class for javascript",
+  "main": "Markov.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joelyjoel/node-markov.git"
+  },
+  "keywords": [
+    "markov"
+  ],
+  "author": "Joel Plow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joelyjoel/node-markov/issues"
+  },
+  "homepage": "https://github.com/joelyjoel/node-markov#readme"
+}
