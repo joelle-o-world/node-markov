@@ -105,5 +105,13 @@ class Markov {
     }
     return sum/stuff.length
   }
+
+  get allTables() {
+    var tables = Object.values(this.matrix)
+    for(var i=0; i<this.order-1; i++)
+      tables = [].concat.apply([], tables.map(tab => Object.values(tab)))
+
+    return tables
+  }
 }
 module.exports = Markov
