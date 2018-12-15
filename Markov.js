@@ -113,5 +113,12 @@ class Markov {
 
     return tables
   }
+
+  removeEndPoints() {
+    var tables = this.allTables
+    for(var i in tables)
+      if(tables[i][this.nullChar])
+        delete tables[i][this.nullChar]
+  }
 }
 module.exports = Markov
